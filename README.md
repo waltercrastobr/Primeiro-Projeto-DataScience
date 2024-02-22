@@ -1,5 +1,6 @@
 # Primeiro Projeto Prático DataScience
 Estou animado em compartilhar meu primeiro projeto prático em Ciência de Dados, focado na análise de Churn usando um dataset com 998 linhas e 12 colunas.
+
 A análise de churn é a análise e previsão da taxa de cancelamento de clientes de um serviço ou produto ao longo do tempo. 
 
 ## [Etapa 1: Análise e Tratamento de Dados](https://github.com/waltercrastobr/Primeiro-Projeto-DataScience/blob/main/analise-tratamento-dados.ipynb)
