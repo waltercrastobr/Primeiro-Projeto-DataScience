@@ -1,9 +1,10 @@
 # Primeiro Projeto Prático DataScience
-Meu primeiro projeto prático de Data Science, contendo 4 etapas sobre uma analise de Churn de um dataset contendo 998 linhas e 12 colunas. 
+Estou animado em compartilhar meu primeiro projeto prático em Ciência de Dados, focado na análise de Churn usando um dataset com 998 linhas e 12 colunas.
 
-## [Etapa 1: Análise e Tratamento de Dados](https://github.com/lucaslealx/Titanic/blob/main/Parte1.ipynb)
-- Nesse etapa fizemos apenas o básico para conseguir verificar qual seria o resultado sem fazer nenhum tratamento nem engenharia dos dados
-  - Foi visualizado um resumo da base utilizando o **[ydata-profiling](https://github.com/ydataai/ydata-profiling), biblioteca capaz de gerar com poucas linhas toda a descrição do nosso dataset**
-  - Também **eliminamos colunas com elevada cardinalidade**, **tratamos valores vazios utilizando a média e a moda das variáveis** e **eliminamos todas as colunas de texto**
-  - Criamos os modelos **utilizando 3 algoritmos: Árvore de Classificação, KNN e Regressão Logística** e **avaliamos esses modelos** utilizando a **acurácia** e a **matriz de confusão**
-- O **score público retornado pelo Kaggle foi: 0,66746**
+## [Etapa 1: Análise e Tratamento de Dados](https://github.com/waltercrastobr/Primeiro-Projeto-DataScience/blob/main/analise-tratamento-dados.ipynb)
+
+-  Nesta etapa, explorei os dados e realizei os tratamentos necessários:
+  - Utilizei as bibliotecas 'pandas' e 'statistics' para manipulação e análise dos dados
+  - Renomeei as colunas que estavam no formato X1, X2, X3... para nomes mais descritivos
+  - Removi valores nulos do dataset
+  - Verifiquei e corrigi valores que estavam fora do domínio esperado em cada coluna.
