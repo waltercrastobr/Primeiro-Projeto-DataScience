@@ -23,6 +23,8 @@ A análise de churn é a análise e previsão da taxa de cancelamento de cliente
   - Escolhi três modelos de classificação: Árvores de Decisão, Regressão Logística e KNeighborsClassifier.
   - Realizei as métricas de acurácia para avaliação dos modelos.
   - Criei um dataframe para armazenar os valores de acurácia dos modelos.
+  - As acurácias foram: Árvore de Classificação: 83%,  KNeighbors: 71,8%, Regressão Logística: 78,7%
+    
 
 
 
