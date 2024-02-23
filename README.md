@@ -11,7 +11,7 @@ A análise de churn é a análise e previsão da taxa de cancelamento de cliente
   - Removi valores nulos do dataset
   - Verifiquei e corrigi valores que estavam fora do domínio esperado em cada coluna.
 
-## [Etapa 2: Criação de Modelos de Machine Learning](https://github.com/waltercrastobr/Primeiro-Projeto-DataScience/blob/main/modelos_machinelearning-Copy1.ipynb)
+## [Etapa 2: Criação de Modelos de Machine Learning](https://github.com/waltercrastobr/Primeiro-Projeto-DataScience/blob/main/modelos_machinelearning.ipynb)
 
 -  Nesta etapa, realizei tratamentos adicionais nas colunas categóricas e construí quatro modelos de machine learning:
 
