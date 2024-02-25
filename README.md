@@ -25,6 +25,29 @@ A análise de churn é a análise e previsão da taxa de cancelamento de cliente
   - Criei um dataframe para armazenar os valores de acurácia dos modelos.
   - As acurácias foram: Árvore de Classificação: 83%,  KNeighbors: 71,8%, Regressão Logística: 78,7%
     
+## Etapa 3: Considerações finais
+
+#### Motivos para a Escolha dos Modelos
+Os modelos de regressão logística, árvore de decisão e k-Nearest Neighbors (k-NN) são frequentemente recomendados para análise de churn devido às suas características e capacidades específicas, que se alinham bem com os desafios desse tipo de análise.
+
+1. *Regressão Logística*: É amplamente utilizada em problemas de classificação binária, como a previsão de churn. Produz resultados interpretáveis e não requer muitos ajustes de hiperparâmetros.
+
+2. *Árvore de Decisão*: Pode capturar padrões complexos nos dados e é facilmente interpretável, ajudando a entender quais variáveis são mais importantes na decisão de churn.
+
+3. *k-NN*: É um algoritmo simples e intuitivo que usa a proximidade dos vizinhos para fazer previsões. Pode ser útil na análise de churn para identificar clientes com comportamentos semelhantes. Não requer suposições sobre a distribuição dos dados e pode lidar com relações não-lineares, mas pode ser afetado por dados ruidosos e alta dimensionalidade.
+
+Esses modelos são escolhas comuns devido à sua capacidade de lidar com diferentes tipos de dados e padrões, bem como à sua interpretabilidade.
+
+#### Métricas de Avaliação
+Em análises de churn, a ênfase é dada aos falsos negativos, pois é mais prejudicial errar ao prever que um cliente não vai cancelar o serviço quando na verdade ele vai. Portanto, é comum priorizar métricas que reduzam os falsos negativos, como o recall.
+
+Ao comparar as matrizes de confusão dos modelos trabalhados, observamos que a Regressão Logística possui um menor número de falsos negativos (8) em relação aos verdadeiros positivos, quando comparada com os outros modelos. Isso sugere que ela pode ser mais adequada se a prioridade for minimizar a perda de clientes.
+
+No entanto, é válido ressaltar que a escolha do modelo também deve levar em consideração outros fatores, como a interpretabilidade do modelo e o custo de implementação.
+
+#### Conclusão
+O projeto apresentou uma abordagem sólida para análise de churn, com tratamento adequado dos dados e escolha de modelos relevantes. A Regressão Logística se destacou por sua menor taxa de falsos negativos, mas a escolha do modelo ideal deve considerar o contexto específico da empresa e seus objetivos. Ressalta-se a experimentação diferentes modelos e técnicas de modelagem para encontrar a melhor solução para um determinado problema de churn.
+    
 
 
 
